@@ -21,31 +21,34 @@ reader.question("What would you like to calculate?", function(input){
 	if (mathSymbol === "+"){
 		console.log(num1 + num2);
 	}
-
-	if (mathSymbol === "-"){
+	
+	else if (mathSymbol === "-"){
 		console.log(num1 - num2);
 	}
-	if (mathSymbol === "*"){
+	else if (mathSymbol === "*"){
 		console.log(num1 * num2);
 	}
-	if (mathSymbol === "/"){
+	else if (mathSymbol === "/"){
 		console.log(num1 / num2);
 	}
-	if (mathSymbol === "sqrt"){
+	else if (mathSymbol === "sqrt"){
 		console.log( Math.sqrt(num1,num2));
 	}
 	//Squaring a number
-	if (mathSymbol === "**"){
+	else if (mathSymbol === "**"){
 		console.log(num1 ** num2);
 	}
 
 	//Finding the power of a number
-	if (mathSymbol === "pow"){ 
+	else if (mathSymbol === "pow"){ 
 		console.log( Math.pow(num1, num2));
 	}
-
+	//Cubing a number
+		if (mathSymbol === "^3"){
+			console.log(num1 *num1 * num1);
+		}
 	//modulus for finding the remainder of number
-	if (mathSymbol === "%"){
+	else if (mathSymbol === "%"){
 		console.log((num1 % num2)); 
 	}
 	
