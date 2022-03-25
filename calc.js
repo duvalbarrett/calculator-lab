@@ -45,7 +45,7 @@ reader.question("What would you like to calculate?", function(input){
 	}
 	//Cubing a number
 		if (mathSymbol === "^3"){
-			console.log(num1 *num1 * num1);
+			console.log(num1 * num1 * num1);
 		}
 	//modulus for finding the remainder of number
 	else if (mathSymbol === "%"){
